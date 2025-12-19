@@ -48,8 +48,9 @@ body:
 
   - type: textarea
     id: details
-    label: What are the details of your suggesttion?
-    description: Explain what do you want
-    options: feature details!
+    attributes:
+      label: What are the details of your suggestion?
+      description: Explain what you want
+      placeholder: Describe the feature in detail
     validations:
       required: true
